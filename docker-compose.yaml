@@ -1,0 +1,4 @@
+duongtang_worker:
+  image: quocnguyen/duongtang-worker
+  mem_limit: 1024m
+  env_file: .env
