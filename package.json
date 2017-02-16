@@ -4,7 +4,7 @@
   "description": "",
   "main": "phimmoi.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon index.js",
+    "dev": "NODE_ENV=development nodemon index.js | pino",
     "start": "NODE_ENV=production node index.js | NODE_ENV=production node report.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
